@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MUSICAPPLICATION" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+    </style>
+
+    <style name="Theme.MUSICAPPLICATION" parent="Base.Theme.MUSICAPPLICATION" />
+</resources>
