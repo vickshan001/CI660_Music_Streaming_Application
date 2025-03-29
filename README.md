@@ -4,13 +4,13 @@ An Android music streaming application developed as part of the CI660 - Advanced
 
 ## 📱 Features
 
-- 🔥 Advanced UI with Material Design
-- 🎶 Browse and filter songs
-- 📂 View albums and their tracks
-- ▶️ Music playback with play/pause, next/previous, and seek bar
-- ☁️ Firebase Realtime Database integration
-- 🔄 Seamless navigation using ViewPager2 and Fragments
-- 📸 Glide and Picasso for image handling
+- 🔥 Advanced UI with Material Design  
+- 🎶 Browse and filter songs  
+- 📂 View albums and their tracks  
+- ▶️ Music playback with play/pause, next/previous, and seek bar  
+- ☁️ Firebase Realtime Database integration  
+- 🔄 Seamless navigation using ViewPager2 and Fragments  
+- 📸 Glide and Picasso for image handling  
 
 ---
 
@@ -18,21 +18,30 @@ An Android music streaming application developed as part of the CI660 - Advanced
 
 The app follows the **MVC (Model-View-Controller)** architectural pattern:
 
-- **Model**: Handles data fetching from Firebase
-- **View**: Includes all fragments displaying UI (SongListFragment, AlbumListFragment, etc.)
-- **Controller**: Controls navigation, playback logic, and fragment communication
+- **Model**: Handles data fetching from Firebase  
+- **View**: Includes all fragments displaying UI (SongListFragment, AlbumListFragment, etc.)  
+- **Controller**: Controls navigation, playback logic, and fragment communication  
 
-![MVC Architecture](screenshots/mvc_architecture.png)
+<p align="center">
+  <img src="screenshots/mvc_architecture.png" width="400"/>
+</p>
 
 ---
 
 ## 📂 Screenshots
 
-| Home | Album List | Music Player |
-|------|------------|--------------|
-| ![MainActivity](screenshots/home.png) | ![Albums](screenshots/albums.png) | ![Player](screenshots/player.png) |
-
-> Replace these with actual images from your app under a `screenshots/` folder in your repository.
+<table>
+  <tr>
+    <td align="center"><b>Home</b></td>
+    <td align="center"><b>Album List</b></td>
+    <td align="center"><b>Music Player</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/home.png" width="150"/></td>
+    <td><img src="screenshots/albums.png" width="150"/></td>
+    <td><img src="screenshots/player.png" width="150"/></td>
+  </tr>
+</table>
 
 ---
 
@@ -48,12 +57,12 @@ Performed both **functional** and **device testing** including:
 
 ## 🛠 Tools & Technologies
 
-- Java
-- Firebase Realtime Database
-- Android Studio
-- Glide & Picasso
-- ViewPager2 & FragmentStateAdapter
-- MediaPlayer API
+- Java  
+- Firebase Realtime Database  
+- Android Studio  
+- Glide & Picasso  
+- ViewPager2 & FragmentStateAdapter  
+- MediaPlayer API  
 
 ---
 
@@ -61,39 +70,41 @@ Performed both **functional** and **device testing** including:
 
 Implemented using `ViewPager2` and `TabLayoutMediator` for fragment switching:
 
-- Songs List
-- Music Player
-- Albums List
-- Album View
+- Songs List  
+- Music Player  
+- Albums List  
+- Album View  
 
 ---
 
 ## 🗺️ Future Improvements
 
-- 🔍 ML-based song recommendations
-- 🎤 Lyrics integration
-- 📅 Artist tour/concert data
-- 🎧 Enhanced custom API integration
+- 🔍 ML-based song recommendations  
+- 🎤 Lyrics integration  
+- 📅 Artist tour/concert data  
+- 🎧 Enhanced custom API integration  
 
 ---
 
 ## 📅 Project Management
 
-- Agile methodology
-- Feature-focused development
-- Frequent backups using version control
-- Iterative testing and feedback
+- Agile methodology  
+- Feature-focused development  
+- Frequent backups using version control  
+- Iterative testing and feedback  
 
-![Gantt Chart](screenshots/gantt_chart.png)
+<p align="center">
+  <img src="screenshots/gantt_chart.png" />
+</p>
 
 ---
 
 ## 📚 References
 
-- [Firebase](https://firebase.google.com/)
-- [Glide](https://github.com/bumptech/glide)
-- [Picasso](https://square.github.io/picasso/)
-- [Material Design 3](https://m3.material.io/)
+- [Firebase](https://firebase.google.com/)  
+- [Glide](https://github.com/bumptech/glide)  
+- [Picasso](https://square.github.io/picasso/)  
+- [Material Design 3](https://m3.material.io/)  
 
 ---
 
